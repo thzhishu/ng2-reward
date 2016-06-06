@@ -1,4 +1,4 @@
-System.register(['@angular/core', '../services/ng2-uploader'], function(exports_1, context_1) {
+System.register(['angular2/core', '../services/ng2-uploader'], function(exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
     var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -46,7 +46,7 @@ System.register(['@angular/core', '../services/ng2-uploader'], function(exports_
                         inputs: ['options: ng-file-select'],
                         outputs: ['onUpload'],
                         host: { '(change)': 'onFiles()' }
-                    }),
+                    }), 
                     __metadata('design:paramtypes', [core_1.ElementRef])
                 ], NgFileSelect);
                 return NgFileSelect;
