@@ -8,4 +8,4 @@ class Validators {
     }
 }
 exports.Validators = Validators;
-//# sourceMappingURL=/Users/worm/Documents/ng2-reward/tmp/broccoli_type_script_compiler-input_base_path-Gbv7ftkb.tmp/0/tmp/broccoli_type_script_compiler-input_base_path-Gbv7ftkb.tmp/0/src/reward/services/Validators.js.map
+//# sourceMappingURL=/Users/worm/github/ng2-reward/tmp/broccoli_type_script_compiler-input_base_path-demb8zc9.tmp/0/tmp/broccoli_type_script_compiler-input_base_path-demb8zc9.tmp/0/src/reward/services/Validators.js.map
