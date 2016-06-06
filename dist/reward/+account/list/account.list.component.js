@@ -81,4 +81,4 @@ AccountListComponent = __decorate([
     __metadata('design:paramtypes', [Account_service_1.AccountService, router_1.Router])
 ], AccountListComponent);
 exports.AccountListComponent = AccountListComponent;
-//# sourceMappingURL=/Users/th/Documents/www/thzs/ng2-reward/tmp/broccoli_type_script_compiler-input_base_path-xEyURD6b.tmp/0/tmp/broccoli_type_script_compiler-input_base_path-xEyURD6b.tmp/0/src/reward/+account/list/account.list.component.js.map
+//# sourceMappingURL=/Users/worm/github/ng2-reward/tmp/broccoli_type_script_compiler-input_base_path-demb8zc9.tmp/0/tmp/broccoli_type_script_compiler-input_base_path-demb8zc9.tmp/0/src/reward/+account/list/account.list.component.js.map

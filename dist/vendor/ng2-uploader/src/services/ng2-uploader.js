@@ -1,4 +1,4 @@
-System.register(['angular2/core'], function(exports_1, context_1) {
+System.register(['@angular/core'], function(exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
     var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -186,7 +186,7 @@ System.register(['angular2/core'], function(exports_1, context_1) {
                     return Math.random().toString(36).substring(7);
                 };
                 Ng2Uploader = __decorate([
-                    core_1.Injectable(), 
+                    core_1.Injectable(),
                     __metadata('design:paramtypes', [])
                 ], Ng2Uploader);
                 return Ng2Uploader;

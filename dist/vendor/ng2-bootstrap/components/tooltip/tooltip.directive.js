@@ -14,7 +14,6 @@ var tooltip_container_component_1 = require('./tooltip-container.component');
 var TooltipDirective = (function () {
     function TooltipDirective(viewContainerRef, loader) {
         this.placement = 'top';
-        this.enable = true;
         this.animation = true;
         this.visible = false;
         this.viewContainerRef = viewContainerRef;
@@ -23,7 +22,7 @@ var TooltipDirective = (function () {
     // todo: filter triggers
     // params: event, target
     TooltipDirective.prototype.show = function () {
-        if (this.visible || !this.enable) {
+        if (this.visible) {
             return;
         }
         this.visible = true;
