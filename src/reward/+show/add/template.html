@@ -132,13 +132,20 @@
 								<input type="text" (keyup)="!additionalNumControl.hasError('required')&&!additionalNumControl.hasError('pattern')&&onEnterAddTotal($event)" [(ngModel)]="additionalNum" pattern="^([1-9][0-9]{0,4}|100000)$" [ngFormControl]="psForm.controls['additionalNumControl']" placeholder="输入1~100,000的数字">
 								<button class="add-btn" (click)="onAddTotal()" [disabled]="additionalNumControl.hasError('pattern')"></button>
 							</div>
-							<!-- <a href="" class="re-date-tip">+添加到期提醒</a> -->
-							<!-- <div class="zs-b-des">
-								<i></i>
-								<div>
-									当可发放的奖励少于一定数量时，我们将通过邮件或者手机短信通知到您
+							<div class="re-msg-ops">
+								<input class="re-ckb" type="checkbox" id="ckb-msg-day" [(ngModel)]="program.cRPValidNotice" [ngFormControl]="psForm.controls['cRPValidNotice']" >
+								<label for="ckb-msg-day"></label>
+								到期前
+								<div class="msg-day">
+									<span class="minus" (click)="program.cRPValidNoticeDay=program.cRPValidNoticeDay>1?program.cRPValidNoticeDay-1:1" ></span>
+									<input type="text" [(ngModel)]="program.cRPValidNoticeDay" [ngFormControl]="psForm.controls['cRPValidNoticeDay']">
+									<span class="plus" (click)="program.cRPValidNoticeDay=program.cRPValidNoticeDay-0+1"></span>
 								</div>
-							</div> -->
+								天通知
+
+							</div>
+							<textarea name="" id="" cols="30" rows="10" [(ngModel)]="program.cRPValidNoticeContent" [ngFormControl]="psForm.controls['cRPValidNoticeContent']" >
+              </textarea>
 						</div>
 						<div class="text-danger" *ngIf="totalRewards.hasError('pattern')">
 							输入不符合规则,请输入1~100,000的整数

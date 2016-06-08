@@ -36,7 +36,7 @@ var barrels = [
     '@angular/router-deprecated',
     '@angular/platform-browser',
     '@angular/platform-browser-dynamic',
-    '@angular/upgrade',
+    // '@angular/upgrade',
     // Thirdparty barrels.
     'rxjs',
     'reward',
